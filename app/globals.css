@@ -220,3 +220,29 @@ body {
     width: 20em;
   }
 }
+
+@media only screen and (max-width: 404px) {
+  .title {
+    font-family: "argent-cf", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0em;
+    text-align: center;
+    font-size: 5.5em;
+    color: #111111;
+  }
+
+  .subtitle {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+  }
+
+  .image {
+    height: 20em;
+    width: 20em;
+  }
+}
