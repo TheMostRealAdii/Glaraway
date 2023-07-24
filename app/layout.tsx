@@ -29,6 +29,14 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX31BMGQSK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CX31BMGQSK');
+</script>
       <body className={inter.className}>{children}</body>
     </html>
   );
