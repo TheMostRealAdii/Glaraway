@@ -23,8 +23,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Image src={image} alt="image" className="image" />
-      <div className="title">Glaraway</div>
-      <div className="subtitle">Coming Soon</div>
+      <div className="title">GLARAWAY</div>
     </>
   );
 }
